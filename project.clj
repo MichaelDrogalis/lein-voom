@@ -1,4 +1,4 @@
-(defproject lein-voom "0.1.0-SNAPSHOT"
+(defproject mdrogalis/lein-voom "0.1.0"
   :description "Tool for generating artifacts versioned on the most recent git commit sha and commit time."
   :url "https://github.com/LonoCloud/lein-voom"
   :scm {:name "git"
@@ -13,6 +13,4 @@
                  [org.clojure/core.logic "0.8.10"]
                  [org.clojure/test.check "0.6.1"]]
   :plugins [[lein-marginalia "0.8.0"]]
-  :signing {:gpg-key "A4D5C342"}
-  :repositories [["sonatype-snapshot" "http://oss.sonatype.org/content/repositories/snapshots"]]
   :eval-in-leiningen true)
